@@ -32,6 +32,6 @@ In the rest of the study, some of those categories are aggregated to define "dis
 
 
 ### U.S. State Supreme Court data
-An open-source [dataset](http://www.ruf.rice.edu/~pbrace/statecourt/) will be used to answer the question of interest. The dataset contains roughly 21,000 decisions reached by over 400 State Supreme Court justices seated between 1995 and 1998.
+An open-source dataset will be used to answer the question of interest. The dataset contains roughly 21,000 decisions reached by over 400 State Supreme Court justices seated between 1995 and 1998.
 Roughly 83% of justices are affiliated to a party, with a majority of justices affiliated to the Democrat party. 
 U.S. State Supreme Courts between 1994 and 1998 are composed of roughly 81% of male judges and 92% of white judges.
