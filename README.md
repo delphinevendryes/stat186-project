@@ -1,15 +1,6 @@
-# stat186-project Causal Inference STAT186 Fall 2018 Harvard University
+# Causal Inference: judge decision data
 
-Judge decisions\\
+We will carry on an observational study to investigate statistical evidence of partisanship in judge decisions with a quasi-experimental design. We use permutation hypothesis tests to show empirical evidence of American political polarization affecting justice decisions. We use logistic regression to quantify the effect of partisanship with different methods, including a comparative study of justice's behavior close to election dates or far from election dates, and the use of inputs from political sciences, i.e. a Partisan Conflict Index. The causal effect of the Partisan Conflict Index is tested by including lagged predictors in the logistic regression model. Our results show statistical evidence but a more robust quantification procedure should be run on a dataset collected over a longer period of time. 
 
-Focus on criminal data.\\
-
-Biographical data for judges / weather data to be added.
-
-## Data cleaning an pre-processing
-
-### Criminal data
-
-Problem: for case classification, some cases don’t have any category. 
-
-
+Impartiality of justices is subject to much debate. 
+Although judicial decisions have been shown to be correlated with demographic characteristics such as race and gender, whether these correlations reflect *per se* bias or differences in legal philosophy is an open question. Similarly, when it comes to politics, dissents between two justices with different political affiliations cannot quite be directly interpreted to manifest partisan behavior, as it might result from different philosophies that exist *prior* to political affiliation. In U.S. State Supreme Courts, a panel of Justices is assigned to a case, hears the oral arguments, and proceeds to a vote. A Justice is chosen in the majority to write the majority opinion. In most circuits, the majority opinion writer is the most senior judge in the majority, or the Chief Justice if they are in the majority. Any Justice may write a separate concurring or dissenting opinion. In the following, we are interested in pairs of justices on a panel, composed of the majority opinion writer and any other judge on the panel. For instance, a panel with 5 justices *{A, B, C, D, E}* where *A* writes the majority opinion will have 4 such pairs: *{A, B}; {A, C}; {A, D}; {A, E}*. 
