@@ -14,6 +14,7 @@ For instance, a panel with 5 justices *{A, B, C, D, E}* where *A* writes the maj
 ## Background on U.S. State Supreme Courts
 ### U.S. State Supreme Courts procedures
 A panel of Justices assigned to a case, hears the oral arguments, and proceeds to a vote. The majority opinion writer wrote a majority opinion -- other judges on the panel can join the majority, propose a concurring opinion (same outcome but different rationale for the case) or dissent (different outcome). The different options available to judges on the panel, as described in the State Supreme Court dataset, are:
+
     - Joins majority  opinion without writing
     - Writer of concurring  opinion
     - Joins concurring  opinion without writing (if there is a concurring opinion)
@@ -27,4 +28,4 @@ A panel of Justices assigned to a case, hears the oral arguments, and proceeds t
     - Did not participate 
     - Other - unable to  classify using the above  categories
 
-In the rest of the study, some of those categories are aggregated to define ``dissent'', e.g.: 5, 6, 7, 8, 10.
+In the rest of the study, some of those categories are aggregated to define "dissent", e.g.: 5, 6, 7, 8, 10.
